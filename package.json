@@ -1,0 +1,36 @@
+{
+  "name": "jasmine-test",
+  "version": "1.0.0",
+  "description": "Basic project for testing Jasmine Spys",
+  "main": "test-main.js",
+  "scripts": {
+    "test": "karma start",
+    "test:dev": "karma start --no-single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medington/jasmine-test"
+  },
+  "author": "medington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medington/jasmine-test/issues"
+  },
+  "homepage": "https://github.com/medington/jasmine-test#readme",
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.5",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-jasmine-html-reporter": "^1.2.0",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^3.0.0",
+    "puppeteer": "^1.6.2",
+    "webpack": "^4.16.4"
+  },
+  "dependencies": {}
+}
